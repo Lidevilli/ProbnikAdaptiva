@@ -1,0 +1,50 @@
+.baloon {
+    margin: 80px 0;
+}
+
+.baloon__inner {
+    padding: 80px;
+    background-image: url(../../img/baloon.svg);
+    background-size: cover;
+    color: var(--white);
+    display: flex;
+    max-height: 496px;
+    height: 100%;
+    
+}
+
+.baloon__right {
+    max-width: 520px;
+    max-height: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.baloon--title {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 110%;
+    color: var(--white);
+}
+
+.baloon--text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--white);
+    margin: 24px 0;
+}
+
+.baloon--link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: var(--white);
+}
+

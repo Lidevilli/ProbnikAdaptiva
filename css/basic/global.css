@@ -1,0 +1,13 @@
+.container {
+    background-color: white;
+    max-width: 1440px;
+    padding: 0 80px;
+    font-family: var(--roboto);
+    margin: auto;
+}
+
+.arrow {
+    color: white;
+    align-items: center;
+    justify-self: center;
+}
